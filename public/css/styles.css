@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  h1{
+    text-align: center;
+    color: blue;
+  }
+  
+  #product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  #product-list div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #product-list img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  #shopping-cart {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  #shopping-cart div {
+    margin-bottom: 10px;
+  }
+  
+  #total-price {
+    font-weight: bold;
+    color: red;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 2px solid #ccc;
+  }
+  
